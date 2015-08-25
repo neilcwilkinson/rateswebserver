@@ -168,7 +168,7 @@ func main() {
 	go rssConnect("demorates.efxnow.com:443", "91C5FF91DB2E7F353002B1604C5C7F66/COMPACT")
 	fmt.Println("Starting httpserver")
 
-	_, err := os.Stat("/go/bin/webcontent")
+	_, err := os.Stat("/go/bin/ratescontent")
 	if err != nil {
 		panic("Where the f is the directory?")
 	}
